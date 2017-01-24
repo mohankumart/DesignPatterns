@@ -2,7 +2,7 @@
  * 
  */
 
-var Singleton = (function () {
+var Singleton = +function () {
     var instance;
  
     function createInstance() {
@@ -18,7 +18,7 @@ var Singleton = (function () {
             return instance;
         }
     };
-})();
+}();
  
 function run() {
  
